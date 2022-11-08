@@ -35,9 +35,10 @@
   }
 
   .h1 {
-    text-align: center;
+    text-align: left;
     font-size: 50px;
     margin-bottom: 40px;
+    padding: 20px;
   }
   .h3 {
     text-align: center;
@@ -90,7 +91,7 @@
   }
   .letters {
     display: flex;
-    width: 300%;
+    width: 100%;
     margin-left: auto;
     flex-direction: column;
     align-items: start;
@@ -126,4 +127,16 @@
   .p4{
     margin-right: 500px;
     margin-bottom: 160px;
+  }
+  .p5{
+    margin-right: 700px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+  }
+  .img{
+   width: 60px;
+   height: 60px;
+  }
+  .main{
+    padding: 20px 40px;
   }
