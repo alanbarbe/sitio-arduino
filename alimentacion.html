@@ -36,13 +36,20 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="programacion.html">Progamación</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="ide.html">Entorno IDE</a>
-              </li>
             </ul>
           </div>
         </div>
       </nav>
-
+      <h1 class="h1">Alimentación en Arduino</h1>
+      <img src="alimentacion/alimentcion-usb.png" class="ft" alt="usb">
+      <h3>Alimentación por USB</h3>
+      <p class="p4">La alimentación de Arduino se realiza a través de un cable USB, el cual se conecta a la placa y a un puerto USB de la computadora. La alimentación se realiza a través de un regulador de voltaje interno, el cual convierte la tensión de 5V que proporciona el puerto USB a 5V.</p>
+      <img src="alimentacion/alimentacion-jack.png" class="ft" alt="jack">
+      <h3>Alimentación por Jack</h3>
+      <p class="p2">Al tratarse de una entrada de corriente directa, la conexión del eliminador tiene una polaridad que debe ser respetada: el polo positivo debe ir al centro del conector. El voltaje adecuado a usar en esta entrada es de 7 a 12 volts DC.
+      </br>
+        Voltajes menores (5 a 7 volts) en esta entrada pueden causar que el regulador interno del arduino no pueda trabajar correctamente. Voltajes mayores a 12 pueden causar el rápido sobrecalentamiento del regulador, aunque la cantidad de accesorios conectados (la demanda de corriente) no sea grande.
+    </br>
+        Esta entrada tiene un diodo de protección para inversión de polaridad, por lo que si no se respeta la polaridad, no ocurrirán daños, pero la tarjeta arduino NO funcionará.</p>
   </body>
 </html>
